@@ -7,16 +7,18 @@ import { appRoutes }                from './app.routing';
 
 //components
 import { AppComponent }             from './app.component';
+import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    YoutubePlayerComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,YoutubePlayerComponent]
 })
 export class AppModule { }
