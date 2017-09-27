@@ -6,11 +6,11 @@ import { AppComponent }             from './app.component';
 // Definition of routes
 export const appRoutes : Routes = [
   {
-    path : '/todolist',
+    path : '/todolist', 
 
-    component: AppComponent  //TODO 
+    component: AppComponent  //TODO
   },
-  
+
   {
     path : '/player',
     component: AppComponent //TODO : use appropriated page
