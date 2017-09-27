@@ -7,11 +7,14 @@ import { AppComponent }             from './app.component';
 export const appRoutes : Routes = [
   {
     path : '/todolist',
+
     component: AppComponent  //TODO 
   },
+  
   {
     path : '/player',
-    component: AppComponent //TODO 
+    component: AppComponent //TODO : use appropriated page
+
   },
   {
     path : '/calculator',
