@@ -9,9 +9,11 @@ export const appRoutes : Routes = [
     path : 'todolist',
     component: AppComponent  //TODO : use appropriated page
   },
+
   {
     path : 'player',
     component: AppComponent //TODO : use appropriated page
+
   },
   {
     path : 'calculator',
