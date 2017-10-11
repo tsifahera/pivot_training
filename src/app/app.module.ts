@@ -19,6 +19,6 @@ import { YoutubePlayerComponent } from './youtube-player/youtube-player.componen
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
-  bootstrap: [AppComponent,YoutubePlayerComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -6,11 +6,6 @@ import { YoutubePlayerComponent } from './youtube-player/youtube-player.componen
 // Definition of routes
 export const appRoutes : Routes = [
   {
-    path     : '',
-    redirectTo: '/player',
-	pathMatch: 'full'
-  },
-  {
     path : 'todolist',
     component: AppComponent  //TODO : use appropriated page
   },
@@ -21,7 +16,10 @@ export const appRoutes : Routes = [
   {
     path : 'calculator',
     component: AppComponent //TODO : use appropriated page
+  },
+  {
+    path     : '**',
+    redirectTo: '',
   }
-
 
 ];
