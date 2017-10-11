@@ -2,7 +2,7 @@ import { Routes }  from '@angular/router';
 
 //components
 import { AppComponent }             from './app.component';
-
+import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 // Definition of routes
 export const appRoutes : Routes = [
   {
@@ -12,8 +12,7 @@ export const appRoutes : Routes = [
 
   {
     path : 'player',
-    component: AppComponent //TODO : use appropriated page
-
+    component: YoutubePlayerComponent //TODO : use appropriated page 
   },
   {
     path : 'calculator',
@@ -21,7 +20,7 @@ export const appRoutes : Routes = [
   },
   {
     path     : '**',
-    redirectTo: ''
+    redirectTo: '',
   }
 
 ];
