@@ -9,9 +9,10 @@ export const appRoutes : Routes = [
     path : 'todolist',
     component: AppComponent  //TODO : use appropriated page
   },
+
   {
     path : 'player',
-    component: YoutubePlayerComponent //TODO : use appropriated page
+    component: YoutubePlayerComponent //TODO : use appropriated page 
   },
   {
     path : 'calculator',
